@@ -1,0 +1,91 @@
+body{
+  background-color: tomato;
+  background-color: black;
+  color:white;
+}
+
+h1, p {
+  font-family: Lato;
+}
+div{
+    margin: auto;
+    width: 90%;
+    
+    padding: 10px;
+    background-color:rgb(243, 108, 85,0.9);
+    background-color: rgb(29, 28, 28);
+    border-radius: 20px;
+  
+}
+li{
+  border-left: 3px solid greenyellow;
+  background-color: rgb(195, 247, 117,0.8);
+  padding-left: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 5px;
+  width:50%;
+  font-size: 20px;
+}
+
+p{
+  display: inline;
+  margin-right:5px ;
+}
+
+img{
+  width:30px;
+  height:20px;
+  
+}
+
+.dlt{
+  background-color: rgb(195, 247, 117,0.8);
+  border: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+}
+
+.button:hover {background-color: greenyellow}
+
+.button:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input{
+  margin-right:10px;
+  margin-left: 40px;
+  border: none;
+  outline: none;
+  height:30px;
+  border-radius: 2px;
+  font-size:15px;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  li{
+    width: 100%;
+  }
+  .dlt{
+    display: inline;
+  }
+ 
+}
